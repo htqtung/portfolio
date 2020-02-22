@@ -2,7 +2,7 @@
   "name": "tung-huynh-portfolio",
   "private": true,
   "description": "My portfolio",
-  "homepage": "http://htqtung.github.io/portfolio",
+  "homepage": "https://htqtung.github.io/portfolio",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -13,7 +13,7 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
