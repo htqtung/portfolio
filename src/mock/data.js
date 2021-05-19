@@ -19,14 +19,23 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `I am a Software Developer and constantly gathering new knowledge to be at least 1% better everyday (so I'll be at least 365% better every year). As a resourceful and open-minded person who striving for continuous personal development, I am willing to take on any kinds of challenge because they are the tools to develop my career.`,
-  paragraphTwo: `My toolbox contains HTML, CSS, Javascript (React, React Native, Node, Vanilla), Java, SQL, Bootstrap, MaterialUI, Git, and Terminal. I can communicate well in English and Vietnamese. I'm also working on my Finnish at the moment.`,
-  paragraphThree: `Beside my professional info, I'm also a badminton player, I love watching movies, listening to music and travelling so there are plenty to talk about.`,
+  paragraphTwo: `My toolbox contains HTML, CSS, Javascript (React, React Native, Node,...), Flutter, Java, SQL, Bootstrap, MaterialUI, Git, and Terminal. I can communicate well in English and Vietnamese. I'm also working on my Finnish at the moment.`,
+  paragraphThree: `Beside my professional info, I'm also a badminton player, I love watching movies, enjoying good food, and travelling so there are plenty to talk about.`,
   resume:
     'https://www.canva.com/design/DADroGJ5gk8/MdVuO0ms9IZwy2DHCmf0hQ/view?utm_content=DADroGJ5gk8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: uuidv1(),
+    img: 'project_memoa.png',
+    title: 'Memoa Flashcard Mobile Application',
+    info: `A flashcard application utilizing spaced repetition technique for learning purpose.`,
+    info2: `This is my bachelor thesis project in which I use Flutter and Firebase to develop a cross-platform application. The mobile version is uploaded to Google Play Store and the web version is being worked on at the moment - It's best to view the web app in mobile view.`,
+    url: 'https://memoa-app.web.app/',
+    repo: '', // if no repo, the button will not show up
+  },
   {
     id: uuidv1(),
     img: 'project1.jpg',
