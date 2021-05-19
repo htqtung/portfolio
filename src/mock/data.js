@@ -29,7 +29,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project_memoa.png',
+    img: 'project_memoa.PNG',
     title: 'Memoa Flashcard Mobile Application',
     info: `A flashcard application utilizing spaced repetition technique for learning purpose.`,
     info2: `This is my bachelor thesis project in which I use Flutter and Firebase to develop a cross-platform application. The mobile version is uploaded to Google Play Store and the web version is being worked on at the moment - It's best to view the web app in mobile view.`,
